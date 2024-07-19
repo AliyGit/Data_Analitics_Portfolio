@@ -10,3 +10,6 @@
 - [Автокорреляция. Определение сезонности](./Statistic/Task_4/summary.md)
 - [Корреляционно-регрессионный анализ](./Statistic/Task_5/summary.md)
   
+### Excel
+- [Создание сводных таблиц](./Excel/Task_1/summary.md)
+  
