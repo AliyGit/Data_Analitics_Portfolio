@@ -11,4 +11,5 @@
   
 ### Excel
 - [Создание сводных таблиц](./Excel/Task_1/summary.md)
+- [Диаграммы](./Excel/Task_2/summary.md)
   
