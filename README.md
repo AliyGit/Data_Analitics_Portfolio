@@ -19,4 +19,4 @@
 - [Импорт внешних данных. Power Query](./Excel/Task_7/summary.md)
 
 ### Tableau
-- [Анализ данных книжного магазина с помощью BI-системы Tableau](./Tableau/summary.md)
+- [Анализ данных книжного магазина с помощью BI-системы](./Tableau/summary.md)
