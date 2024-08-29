@@ -17,3 +17,6 @@
 - [Прогнозирование продаж с учетом сезонности](./Excel/Task_5/summary.md)
 - [Поиск решения линейной задачи симплекс-методом](./Excel/Task_6/summary.md)
 - [Импорт внешних данных. Power Query](./Excel/Task_7/summary.md)
+
+### Tableau
+- [Анализ данных книжного магазина с помощью BI-системы Tableau](./Tableau/summary.md)
