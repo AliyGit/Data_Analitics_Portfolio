@@ -1,5 +1,6 @@
 # Проект: Анализ данных книжного магазина
-Ссылка на public.tableau.com https://public.tableau.com/authoring/BookShop_Analytics/sheet0#1
+Ссылка на public.tableau.com  
+https://public.tableau.com/views/BookShop_Analytics/sheet0?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 ## Описание
 Проект выполнен с использованием программы Tableau и направлен на анализ данных книжного магазина.  
 Основные данные для анализа были получены из двух файлов: BookShop и BookShopLibraries.  
