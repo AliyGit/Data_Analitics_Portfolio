@@ -1,5 +1,5 @@
 # Проект: Анализ данных книжного магазина
-Ссылка на public.tableau.com  
+Ссылка на public.tableau.com ((переходить с включенным VPN)  
 https://public.tableau.com/views/BookShop_Analytics/sheet0?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 ## Описание
 Проект выполнен с использованием программы Tableau и направлен на анализ данных книжного магазина.  
