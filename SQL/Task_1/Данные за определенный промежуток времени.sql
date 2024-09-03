@@ -1,12 +1,12 @@
 /*
 
-Çàäàíèå:
-Ïîêàçàòü çàêàçû êîòîðûå áûëè îôîðìëåíû âåñíîé 1997 ãîäà (4-ìÿ ñïîñîáàìè) 
-Áàçà äàííûõ Northwind. Òàáëèöà Orders
+Ð—Ð°Ð´Ð°Ð½Ð¸Ðµ:
+ÐŸÐ¾ÐºÐ°Ð·Ð°Ñ‚ÑŒ Ð·Ð°ÐºÐ°Ð·Ñ‹ ÐºÐ¾Ñ‚Ð¾Ñ€Ñ‹Ðµ Ð±Ñ‹Ð»Ð¸ Ð¾Ñ„Ð¾Ñ€Ð¼Ð»ÐµÐ½Ñ‹ Ð²ÐµÑÐ½Ð¾Ð¹ 1997 Ð³Ð¾Ð´Ð° (4-Ð¼Ñ ÑÐ¿Ð¾ÑÐ¾Ð±Ð°Ð¼Ð¸) 
+Ð‘Ð°Ð·Ð° Ð´Ð°Ð½Ð½Ñ‹Ñ… Northwind. Ð¢Ð°Ð±Ð»Ð¸Ñ†Ð° Orders
 
 */
 
---Ïåðâûé âàðèàíò ðåøåíèÿ:
+--ÐŸÐµÑ€Ð²Ñ‹Ð¹ Ð²Ð°Ñ€Ð¸Ð°Ð½Ñ‚ Ñ€ÐµÑˆÐµÐ½Ð¸Ñ:
 SELECT *
 FROM Northwind.dbo.Orders
 WHERE YEAR(OrderDate) = 1997 AND
@@ -15,20 +15,20 @@ WHERE YEAR(OrderDate) = 1997 AND
                MONTH(OrderDate) = 05);
 
 
---Âòîðîé âàðèàíò ðåøåíèÿ:
+--Ð’Ñ‚Ð¾Ñ€Ð¾Ð¹ Ð²Ð°Ñ€Ð¸Ð°Ð½Ñ‚ Ñ€ÐµÑˆÐµÐ½Ð¸Ñ:
 SELECT *
 FROM Northwind.dbo.Orders
 WHERE YEAR(OrderDate) = 1997 AND MONTH(OrderDate) in (3,4,5);
 
 
---Òðåòèé âàðèàíò ðåøåíèÿ:
+--Ð¢Ñ€ÐµÑ‚Ð¸Ð¹ Ð²Ð°Ñ€Ð¸Ð°Ð½Ñ‚ Ñ€ÐµÑˆÐµÐ½Ð¸Ñ:
 SELECT *
 FROM Northwind.dbo.Orders
 WHERE YEAR(OrderDate) = 1997 AND (MONTH(OrderDate) > 2 AND MONTH(OrderDate) < 6);
 
 
 
---×åòâåðòûé âàðèàíò ðåøåíèÿ:
+--Ð§ÐµÑ‚Ð²ÐµÑ€Ñ‚Ñ‹Ð¹ Ð²Ð°Ñ€Ð¸Ð°Ð½Ñ‚ Ñ€ÐµÑˆÐµÐ½Ð¸Ñ:
 SELECT *
 FROM Northwind.dbo.Orders
 WHERE OrderDate >= '19970301'  AND OrderDate <= '19970531';
