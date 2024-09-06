@@ -26,3 +26,4 @@
 - [Группировка GROUP BY / Фильтрация HAVING / Коррелированный подзапрос](./SQL/Task_2/summary.md)
 - [Использование оператора EXCEPT для анализа оттока клиентов](./SQL/Task_3/summary.md)
 - [Анализ данных с помощью автономного подзапроса](./SQL/Task_4/summary.md)
+- [Анализ данных с помощью LEFT OUTER JOIN](./SQL/Task_5/summary.md)
