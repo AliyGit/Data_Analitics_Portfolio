@@ -14,8 +14,8 @@ GROUP BY E.EmployeeID, CONCAT(FirstName, ' ', LastName);
 -- Коррелируемый подзапрос:
 SELECT CONCAT(FirstName, ' ', LastName) AS [Имя продавца], (SELECT COUNT(OrderID)
                                                             FROM Orders O       
-															WHERE EmployeeID = E.EmployeeID AND
-															O.ShipCity = 'Paris') AS [Кол-во заказов в Париж, шт]
+							    WHERE EmployeeID = E.EmployeeID AND
+							          O.ShipCity = 'Paris') AS [Кол-во заказов в Париж, шт]
 FROM Employees E;
 
 
