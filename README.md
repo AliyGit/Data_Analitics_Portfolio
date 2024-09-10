@@ -27,3 +27,4 @@
 - [Использование оператора EXCEPT для анализа оттока клиентов](./SQL/Task_3/summary.md)
 - [Анализ данных с помощью автономного подзапроса](./SQL/Task_4/summary.md)
 - [Анализ данных с помощью LEFT OUTER JOIN](./SQL/Task_5/summary.md)
+- [Оператор CROSS APPLY. 3 самых дорогих товаров в каждой категории](./SQL/Task_6/summary.md)
