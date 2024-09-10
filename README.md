@@ -29,3 +29,4 @@
 - [Анализ данных с помощью LEFT OUTER JOIN](./SQL/Task_5/summary.md)
 - [Оператор CROSS APPLY. 3 самых дорогих товаров в каждой категории](./SQL/Task_6/summary.md)
 - [Оператор PIVOT. Таблица по заказам в странах за каждый год](./SQL/Task_7/summary.md)
+- [Оператор WITH ROLLUP. Подсчет заказов по странам за каждый год с подитогами](./SQL/Task_8/summary.md)
