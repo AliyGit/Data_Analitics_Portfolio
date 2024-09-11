@@ -13,9 +13,9 @@ WITH OrderSums AS (
                    )
 SELECT OrderDate, [Сумма заказа], SUM([Сумма заказа]) OVER (ORDER BY OrderDate ASC
                                                             ROWS BETWEEN
-								                            UNBOUNDED PRECEDING
-								                            AND
-								                            CURRENT ROW) AS [Нарастающий Итог]
+                                                            UNBOUNDED PRECEDING
+							    AND
+							    CURRENT ROW) AS [Нарастающий Итог]
 FROM OrderSums;
 
 
